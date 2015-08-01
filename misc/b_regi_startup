@@ -1,0 +1,39 @@
+type startup
+
+function startup
+clc;
+disp(['Hello! Átalakítottam a getivph.m filet.'])
+disp(['A belöle létrehozott getivph2.m a következöt'])
+disp(['teszi: ahelyett, hogy textfile-hegyeket gyártana,'])
+disp(['beolvas egy ivsph figuret, megszüri, és ha megfelelt'])
+disp(['a minimális adatszám kritériumnak, akkor a meg-'])
+disp(['maradt pontokat ábrázolja, és a kapott figuret'])
+disp(['elmenti az f:\_analysis\analysenow2 könyvtárba,'])
+disp(['...ivsph2... névvel. Ezt már meg is tettem,'])
+disp(['10 adatpontos korláttal 197 filet találtam.'])
+disp(['Ha másra is akartok szürni, a getivph2.m-et'])
+disp(['érdemes tovább alakítani. A current directory'])
+disp(['ablakból akarhány plotot megnyithattok egyszerre,'])
+disp(['így lehet öket gyorsan végignézni.'])
+disp([' '])
+disp(['Megcsináltam azért a textfile-hegyet is, az'])
+disp(['f:\_analysis\analyse_result\ivph_texts könyvtárban'])
+disp(['vannak. Belölük adatot a txtrd.m-mel nyerhettek,'])
+disp(['ahhoz írtam helpet is. Ha valamiért úgy látjátok,'])
+disp(['mégis szükségetek van a dolognak erre a részére,'])
+disp(['írjatok a function elejére egy ciklust, hogy meg-'])
+disp(['csinálja az összeset egyszerre.'])
+disp([' '])
+disp(['Ha kitörlitek a startup.m-et, akkor nem írja ki'])
+disp(['többet ezt a sok rizsát.'])
+disp([' '])
+disp(['Remélem, nagyjából müködnek ezek a dolgok. Ha'])
+disp(['valami gond van, a számom 3131373, de általában'])
+disp(['csak este vagyok elérhetö.'])
+disp([' '])
+disp(['Üdv mindenkinek!'])
+disp([' '])
+disp(['Balázs'])
+
+
+diary off
